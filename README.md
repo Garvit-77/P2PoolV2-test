@@ -11,13 +11,13 @@ This project demonstrates creating and spending Bitcoin transactions using the `
 
 **Clone the repository** (or create the project structure with the provided files):
   
-	|git clone [https://github.com/Garvit-77/P2PoolV2-test.git](https://github.com/Garvit-77/P2PoolV2-test.git)  
-	|cd P2PoolV2-test
+	git clone [https://github.com/Garvit-77/P2PoolV2-test.git](https://github.com/Garvit-77/P2PoolV2-test.git)  
+	cd P2PoolV2-test
 
 **Build and run the Docker container**:
 
-	|sudo docker build \-t test .  
-	|sudo docker run \-it \--rm \-p 18443:18443 test
+	sudo docker build \-t test .  
+	sudo docker run \-it \--rm \-p 18443:18443 test
 
 **Observe the output**:
 
